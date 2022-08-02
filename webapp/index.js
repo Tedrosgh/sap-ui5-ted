@@ -1,12 +1,11 @@
 sap.ui.define([
- "sap/m/Text" // specific Sap text controll
-    //   'require',
- //   'dependency'
-], function(Text) {
+ "sap/ui/core/mvc/XMLView" 
+
+], function(XMLView) {
     'use strict';
-   // alert("UI5 is ready to go")
-    new Text({
-        //This will be shown in the html file connecting with the content in the body
-        text: "Hello UI5!"
-    }).placeAt("content")
+    XMLView.create({
+        viewName: "sap.ui.demo.ted.view.App"
+    }).then( function (oView) {
+        oView.placeAt("content");
+    })
 });
