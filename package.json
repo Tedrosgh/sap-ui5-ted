@@ -1,0 +1,20 @@
+{
+  "name": "sap-ui5-ted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tedrosgh/sap-ui5-ted.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tedrosgh/sap-ui5-ted/issues"
+  },
+  "homepage": "https://github.com/Tedrosgh/sap-ui5-ted#readme"
+}
