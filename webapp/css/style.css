@@ -11,3 +11,11 @@ html[dir="rtl"] .myAppdemoWT .myCustomButton.sapMBtn {
     font-weight: bold;
     background-color: red;
 }
+
+/*  ProductRating */
+.myAppDemoWTProductRating {
+	padding: 0.75rem;
+}
+.myAppDemoWTProductRating .sapMRI {
+	vertical-align: initial;
+}
